@@ -1,0 +1,31 @@
+GAME
+
+Character design
+    Shura Hiwa
+    https://twitter.com/ShuraHiwa
+
+Illustration
+    Done with the help of an AI by AI-Anon
+
+Music
+
+    Sling out by Dova-Syndrome
+    https://dova-s.jp/EN/bgm/play15219.html
+    Composer information - https://dova-s.jp/EN/_contents/author/profile301.html
+    License - https://dova-s.jp/EN/_contents/license/
+
+    8-bit adaptation by Musician-Anon
+
+Sprite Art
+
+    GrafxKid
+    https://opengameart.org/content/arcade-platformer-assets
+
+Game programmer
+    Sleepless Nights
+
+OTHER
+
+Flag icons by https://flagicons.lipis.dev/
+Underlying library https://p5js.org/
+Physics simulation library https://brm.io/matter-js/

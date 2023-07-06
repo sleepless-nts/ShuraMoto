@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>Shura's MotoAdventures</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #101010;
+      color: #fff;
+      font-size: 13px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #container {
+        display:flex;
+        margin:0;
+        padding:0;
+
+    }
+    #credits {
+        margin:0 15px;
+        max-width: 600px;
+    }
+    #credits p {
+        text-align:justify;
+    }
+    a {
+        color: #ffbae9;
+    }
+    a:visited {
+        color: #ffbae9;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #dd98c7;
+    }
+    h1 {
+        font-size: 1.7em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    ul {
+        /* list-style-type: none; */
+        margin:0;
+        padding:0;
+    }
+    li {
+        margin:0 0 0 12px;
+        padding:0;
+    }
+    ul>li>ul li {
+        margin-left:25px;
+    }
+    .fi {
+        background-size: contain;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        display: inline-block;
+        width: 1.33333333em;
+        line-height: 1em;
+        margin: 1px;
+    }
+    .fi:hover {
+        border:1px solid #fff;
+        margin:0;
+    }
+    .fi.es {
+        background-image: url(assets/flags/es.svg);
+    }
+    .fi.en {
+        background-image: url(assets/flags/gb.svg);
+    }
+    .fi.jp {
+        background-image: url(assets/flags/jp.svg);
+    }
+    span.flag {
+        display: inline-block;
+        width:40px;
+        height:30px;
+        cursor:pointer;
+    }
+    span.mute {
+        display: inline-block;
+        cursor:pointer;
+        font-size: 28px;
+        margin:-4px -4px 1px 1px;
+        padding:0;
+        vertical-align: top;
+    }
+    span.mute:hover {
+        border:1px solid #fff;
+        margin: -5px -5px 0 0;
+    }
+  </style>
+  <script src="libs/matter.min.js"></script>
+  <script src="libs/p5.min.js"></script>
+  <script src="libs/p5.sound.min.js"></script>
+  <script src="src/funcs.js"></script>
+  <script src="src/localization.js"></script>
+  <script src="src/params.js"></script>
+  <script src="src/shapes.js"></script>
+  <script src="src/levels.js"></script>
+  <script src="src/main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <main>
+            </main>
+            <span class="flag fi es" onclick="__set_language(LANG_ES);"></span>
+            <span class="flag fi en" onclick="__set_language(LANG_EN);"></span>
+            <span id="mute-button" class="mute" onclick="__toggle_bgm(this);" alt="Toggle music"></span>
+        </div>
+        <div id="credits">
+        </div>
+    </div>
+</body>
+</html>
