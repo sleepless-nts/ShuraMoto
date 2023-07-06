@@ -634,9 +634,9 @@ function create_world(){
         let item = level_objects[i];
         let obj;
         if("r" in item){
-            obj = new ShapeCircle(item.x, item.y, item.r/2, {friction: 0.9,restitution: 0.01, isStatic: true});
+            obj = new ShapeCircle(item.x, item.y, item.r/2, {friction: 0.9,restitution: P_OBJECT_RESTITUTION, isStatic: true});
         } else {
-            obj = new ShapeRect(item.x, item.y, item.w, item.h, {friction: 0.9,restitution: 0.01, isStatic: true, angle: item.angle});
+            obj = new ShapeRect(item.x, item.y, item.w, item.h, {friction: 0.9,restitution: P_OBJECT_RESTITUTION, isStatic: true, angle: item.angle});
 
         }
 
