@@ -74,10 +74,12 @@ LANGUAGES[LANG_ES] = {
     "CREDITS_GAME"    : 'Juego',
     "CREDITS_ASSETS"  : 'Recursos',
     "CREDITS_OTHER"   : 'Otros',
+    "CREDITS_TIPS"    : 'Consejos',
     "CREDITS_MAIN"    : `<i>Shura's MotoAdventures</i> es un pequeño <i>fangame</i> de la <del>png</del>vtuber <a href='https://twitter.com/ShuraHiwa' target='_blank'>Shura Hiwa</a>
                          inspirado por juegos como Trial Bike. El diseño de su personaje le pertenece. Este juego está publicado sin ninguna intención de lucro y es puramente por diversión.
                          El código fuente se puede encontrar <a href="https://github.com/sleepless-nts/ShuraMoto/" target="_blank">aquí</a>. Hecho por Sleepless Nights.`,
     "CREDITS_SECOND"  : `Este juego incluye un editor que puede utilizarse para crear niveles. Si tienes la paciencia de crear un nivel y quieres que sea incluído en el juego puedes escribirme en <a href="https://twitter.com/sleepless_nts" target="_blank">Twitter</a>.`,
+    "CREDITS_THIRD"   : `La moto puede ser un poco difícil de controlar, trata de presionar la ⬅ flecha izquierda cuando aceleras para girar la moto un poco hacia atrás y mantener la rueda trasera en el suelo. También puedes dejar presionada la tecla D cuando estás en el aire, de esta manera harás un pequeño salto cuando la rueda trasera haga contacto con el suelo.`,
     "CREDITS_LIST"    : `<ul>
                             <li>Ilustración de Shura en moto hecha con ayuda de una IA por AI-Anon.</li>
                             <li><a href="https://www.youtube.com/watch?v=sBwuFogz3IE" target="_blank">Sling out</a>, BGM de Shura por DOVA-SYNDROME.</li>
@@ -155,10 +157,12 @@ LANGUAGES[LANG_EN] = {
     "CREDITS_GAME"    : 'Game',
     "CREDITS_ASSETS"  : 'Assets',
     "CREDITS_OTHER"   : 'Other',
+    "CREDITS_TIPS"    : 'Tips',
     "CREDITS_MAIN"    : `<i>Shura's MotoAdventures</i> is a small <i>fangame</i> of the <del>png</del>vtuber <a href='https://twitter.com/ShuraHiwa' target='_blank'>Shura Hiwa</a>
                          inspired by games like Trial Bike. Character design belongs to her. This game is published without any intention of profit and is merely for fun. The source
                          code can be found <a href="https://github.com/sleepless-nts/ShuraMoto/" target="_blank">here</a>. Made by Sleepless Nights.`,
     "CREDITS_SECOND"  : `This game includes an editor which can be used to create new levels. If you have the patience to create a level and you want it to be added to the game, you can contact me at <a href="https://twitter.com/sleepless_nts" target="_blank">Twitter</a>.`,
+    "CREDITS_THIRD"   : `The bike can be a little bit difficult to control, try holding the ⬅ back arrow key when throttling to tilt a little bit backwards and keep the rear wheel on the ground. You can also keep the D key pressed while you're on the air, this way you will do a little hop when the rear wheel makes contact with the ground.`,
 
     "CREDITS_LIST"    : `<ul>
                             <li>Illustration of Shura riding a bike done with the help of an AI by AI-Anon.</li>
@@ -207,4 +211,6 @@ PAGE_CREDITS = `
     <li><a href='https://p5js.org/'>p5js</a></li>
     <li><a href='https://brm.io/matter-js/'>matter.js</a></li>
 </ul>
+<h2>{CREDITS_TIPS}</h2>
+<p>{CREDITS_THIRD}</p>
 `;
