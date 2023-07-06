@@ -29,3 +29,5 @@ let P_BIKE_TORQUE_THROTTLE_WHEEL_REAR = 3,
     P_BIKE_TORQUE_BRAKE_WHEEL_FRONT   = 0,
     P_BIKE_TORQUE_TILT_BACK           = -2.5, // Better than -3
     P_BIKE_TORQUE_TILT_FORWARD        = 3;
+
+let P_OBJECT_RESTITUTION            = 0.01;
